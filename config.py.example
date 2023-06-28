@@ -1,0 +1,22 @@
+
+def getConfig():
+    config = {
+        "TEST_MODE": True,
+        "DB_HOST": "localhost",
+        "DB_USER": "quotes",
+        "DB_PASS": "123456789",
+        "DB_NAME": "quotes",
+
+        "TS3_HOST": "localhost",
+        "TS3_PORT": 10080,
+        "TS3_APIKEY": "ApIkEy",
+        "TS3_IDS": [1, 4, 8],
+        "TS3_MOTD_REGEX": r'^(.*\[color=#009900\]).+?(\[/color\].*?)$',
+
+        "QUOTE_WORDWRAP_LENGTH": 120,
+        "QUOTE_RND_OF_LOWEST": 25,
+        "QUOTE_DAY_FILE": "quote.txt",
+
+        "DISCORD_WEBHOOK": "https://discord.com/api/webhooks/123/abc?wait=true",
+    }
+    return config
