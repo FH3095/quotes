@@ -1,7 +1,7 @@
 
 def getConfig():
     config = {
-        "TEST_MODE": True,
+        "TEST_MODE": False,
         "DB_HOST": "localhost",
         "DB_USER": "quotes",
         "DB_PASS": "123456789",

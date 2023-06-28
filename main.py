@@ -13,5 +13,4 @@ with open(config["QUOTE_DAY_FILE"], mode="wt", encoding = "utf-8") as quoteFile:
 #Discord(config).sendQuote(quote)
 
 for serverId in config["TS3_IDS"]:
-    ts3 = Ts3(config, serverId)
-    ts3.updateQuote(quote)
+    Ts3(config, serverId).updateQuote(quote)
